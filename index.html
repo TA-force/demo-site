@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サンプル株式会社</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="container">
+      <h1 class="logo">サンプル株式会社</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">会社概要</a></li>
+          <li><a href="#services">事業内容</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインビジュアル -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>未来をつなぐソリューション</h2>
+      <p>サンプル株式会社はテクノロジーと人をつなぎ、新しい価値を創造します。</p>
+    </div>
+  </section>
+
+  <!-- 会社概要 -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>会社概要</h2>
+      <p>サンプル株式会社は、ITソリューションを通じて社会に貢献する企業です。お客様の課題を共に解決し、持続可能な未来を築くことを目指しています。</p>
+    </div>
+  </section>
+
+  <!-- 事業内容 -->
+  <section id="services" class="section bg-light">
+    <div class="container">
+      <h2>事業内容</h2>
+      <div class="services">
+        <div class="card">
+          <h3>システム開発</h3>
+          <p>最新技術を活用したシステム開発で業務効率を改善します。</p>
+        </div>
+        <div class="card">
+          <h3>コンサルティング</h3>
+          <p>課題分析から戦略立案まで、幅広くサポートします。</p>
+        </div>
+        <div class="card">
+          <h3>クラウドサービス</h3>
+          <p>安心・安全なクラウド導入支援を提供します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>お問い合わせ</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="お名前" required>
+        <input type="email" name="email" placeholder="メールアドレス" required>
+        <textarea name="message" placeholder="お問い合わせ内容" required></textarea>
+        <button type="submit">送信</button>
+      </form>
+      <p id="formMessage"></p>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 サンプル株式会社</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
