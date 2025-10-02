@@ -3,80 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>サンプル株式会社</title>
+  <title>TAforce | Driving Innovation</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ヘッダー -->
   <header>
-    <div class="container">
-      <h1 class="logo">サンプル株式会社</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">会社概要</a></li>
-          <li><a href="#services">事業内容</a></li>
-          <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>TAforce</h1>
+    <nav>
+      <a href="#services">事業内容</a>
+      <a href="#vision">ビジョン</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
   </header>
 
-  <!-- メインビジュアル -->
-  <section class="hero">
-    <div class="hero-text">
-      <h2>未来をつなぐソリューション</h2>
-      <p>サンプル株式会社はテクノロジーと人をつなぎ、新しい価値を創造します。</p>
-    </div>
-  </section>
+  <div class="hero">
+    <h2>Innovation for the Next Generation</h2>
+    <p>スタートアップのスピードと革新性で、未来を切り拓くテクノロジーパートナー</p>
+    <button id="contactBtn">お問い合わせはこちら</button>
+  </div>
 
-  <!-- 会社概要 -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>会社概要</h2>
-      <p>サンプル株式会社は、ITソリューションを通じて社会に貢献する企業です。お客様の課題を共に解決し、持続可能な未来を築くことを目指しています。</p>
-    </div>
-  </section>
-
-  <!-- 事業内容 -->
-  <section id="services" class="section bg-light">
-    <div class="container">
-      <h2>事業内容</h2>
-      <div class="services">
-        <div class="card">
-          <h3>システム開発</h3>
-          <p>最新技術を活用したシステム開発で業務効率を改善します。</p>
-        </div>
-        <div class="card">
-          <h3>コンサルティング</h3>
-          <p>課題分析から戦略立案まで、幅広くサポートします。</p>
-        </div>
-        <div class="card">
-          <h3>クラウドサービス</h3>
-          <p>安心・安全なクラウド導入支援を提供します。</p>
-        </div>
+  <section id="services">
+    <h2>事業内容</h2>
+    <div class="services">
+      <div class="card">
+        <h3>AIソリューション</h3>
+        <p>生成AI・LLMを活用した新規事業開発支援</p>
+      </div>
+      <div class="card">
+        <h3>DX推進</h3>
+        <p>業務効率化と企業変革を実現するDXコンサルティング</p>
+      </div>
+      <div class="card">
+        <h3>クラウド導入支援</h3>
+        <p>信頼性と拡張性の高いクラウド活用を支援</p>
       </div>
     </div>
   </section>
 
-  <!-- お問い合わせ -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>お問い合わせ</h2>
-      <form id="contactForm">
-        <input type="text" name="name" placeholder="お名前" required>
-        <input type="email" name="email" placeholder="メールアドレス" required>
-        <textarea name="message" placeholder="お問い合わせ内容" required></textarea>
-        <button type="submit">送信</button>
-      </form>
-      <p id="formMessage"></p>
-    </div>
+  <div id="vision" class="vision">
+    <h2>Our Vision</h2>
+    <p>テクノロジーの力で人と社会をつなぎ、持続可能な未来を共創する。</p>
+  </div>
+
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>info@taforce.com までご連絡ください。</p>
   </section>
 
-  <!-- フッター -->
   <footer>
-    <div class="container">
-      <p>&copy; 2025 サンプル株式会社</p>
-    </div>
+    <p>&copy; 2025 TAforce Inc. All Rights Reserved.</p>
   </footer>
 
   <script src="script.js"></script>
